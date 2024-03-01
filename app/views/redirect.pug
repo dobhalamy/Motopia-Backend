@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        script(src="scripts/jquery.min.js")
+        script(src="scripts/bootstrap.min.js")
+
+        title Document
+    body
+        input(type="text" id="inputtoken" value="")
+        br
+        form(action="https://test.authorize.net/payment/payment" method="post" id="formAuthorizeNetTestPage" name="formAuthorizeNetTestPage")
+            input(type="hidden" name="token" id="redirectToken" value="")
+            button(id="btnContinue") Continue to next page
+        script(type="text/javascript").
+            const redirect = document.querySelector('#redirectToken')
+            const btn = document.querySelector('#btnContinue')
+            const form = document.querySelector('#formAuthorizeNetTestPage')
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                redirect.value = "#{token}"
+                form.submit()
+            })

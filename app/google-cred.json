@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "inventory-export-286112",
+  "private_key_id": "ddb8898976def22156bcf2944a093fea01720238",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/hPPZ1GdbB5Kw\ncBEQDLxcFNjLM60MEJz7txhLU944td7n9zs+OgWGG2VLIxrRAdB4LI0QDGaleXi6\nG4bTqqTLJXwKsrxqbiE7qZ1eEG6JthmsysPm569xmyfBcqXheqp476lRHlY9aeKr\nTedJpLCklNshlPjwudyJVMglLo7BFuVmjsredeZi5aKzzk77oWR9jzfCDdxvjZvu\nbaSXIkb1QDGtdGT+K24DKR2lb1L0IDDE0SUTN5d3JXOvoktgn9eMhW2NmNpSvVtV\nw1Sh02iNI9Y8kHI3jUlA3otYs9kHYnbCq+ui2Elv5Ymj0evjUBoDBwkCIOUHRT17\nycIhA7LbAgMBAAECggEAA8FMOGvJnlQyDLrULXt7gqMVVcIVUwJ3tktY9zp3koS/\nKeAIPsQP3iGRtkv/eYEmK0ah8Y0LGC4WonSUlCLcXBqlnM1JNmGriZtMqFuFhS3o\nfQgOuoULAHrMm2I3+wDjzlAWgq5sKIRNIZvY2nH1bvMRJtccAxawOYF+4aWdrYZZ\nJnTowQm37fUXX+b87Q7CKGysOSxq+ESHKFPe9V915GFTZPl/TS0OfHpD7FULVXhc\nblvD5rUqmDg+qYordYuldeUl05m2Cg0YU67rN+mKAnYJaWhJJLt4Scr/lZjDeMH0\nNZel5fgAZHtzqiv8rYlp/q/HqxWeJbAAYzj8AzwQ0QKBgQDeDGg+kA5c+vnpr+lT\ny9so1DJCQzYev7WBhxpK2EdzXbaOxRdAEMy4J7LNxmOtu4qdA4x/6POP/5x43uCZ\nMLccUZ5cnMezIGeT72OnQWaLOjh/EWzS6/MLh13rbIgzZ88BMQ3G2f3HAuk10wtj\no10MrtvVyyDX++j1QSroPPGGsQKBgQDczY0I8J0mB5qLbT1mLPmY6OrEDSmKpCSx\nua/eITdLc7nygxXMmGbA3iKCpegz+kD6f8GkPaMWJxlsQiTCMEzBYMEK7zIdmEJn\ntyvMV/dxRRIHdlkLdx/RlcHUXd+Ah5qZINSgok2cUK/EtnXqQ8UBIRryCqDk03e1\nFqOZWB5NSwKBgQCUISLJ2cA7NxLRWpEFXdFug2Cj48KO8MVdC4v2siG4TKQkykag\nbpSjpZgavmZw19O4u01XZ0hUn+j6mXSrvVvqgGhs0ApI7S0r+183jOGjr8tQuYcn\njlAtOLjm/Rg/ctkdqmPObE5oHQEG7yuB5NGGTIBLN59JdrwKINdG5qEZgQKBgGrp\nqJGcmCsS4XUDdwhjXJP6q7o0OVolMpNPuuVOpgyFw5K2gDap0I8wv/sMxEtusEna\n1HNnWPFgC0JNIKlaY7/6zl4yBc0orXa0zaNLMMgKzrkISANyMdj0r37Z2V/NyUC+\nEdaZ4ASBWSphwuSk3d43Hmn2VYOXFU584MheT4XTAoGAcX5N3nYNr/8BtqQb5stW\nRWCos+lgrSDbA/ogiDpyUm+ndZaPbT0Qsnxl/6M5IzT8GRRvNPWtux4ha3GinAgg\neTxx+zepqsbm/LzUYGlU/HcajFzf7qmMRZRS0FKe2qcDBMNjsl1HXOC3x38Q+XYS\n0c3jBo9N6M8KkBwho7iMV6g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gomotopia-inventory-export@inventory-export-286112.iam.gserviceaccount.com",
+  "client_id": "118188182912287878368",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gomotopia-inventory-export%40inventory-export-286112.iam.gserviceaccount.com"
+}

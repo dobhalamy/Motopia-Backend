@@ -1,0 +1,44 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:12.22.12
+clone:
+  depth: full
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Production Deploy
+          deployment: production
+          script:
+            - tar czfv motopia-app.tgz *
+            - pipe: atlassian/heroku-deploy:2.0.0
+              variables:
+                HEROKU_API_KEY: $HEROKU_API_KEY
+                HEROKU_APP_NAME: $HEROKU_APP_NAME
+                ZIP_FILE: "motopia-app.tgz"
+                WAIT: "true"
+          artifacts:
+            - motopia-app.tgz
+          caches:
+            - node
+
+    staging:
+      - step:
+          name: staging Deploy
+          deployment: staging
+          script:
+            - tar czfv motopia-app.tgz *
+            - pipe: atlassian/heroku-deploy:2.0.0
+              variables:
+                HEROKU_API_KEY: $HEROKU_STAGING_API_KEY
+                HEROKU_APP_NAME: $HEROKU_STAGING_APP_NAME
+                ZIP_FILE: "motopia-app.tgz"
+                WAIT: "true"
+          artifacts:
+            - motopia-app.tgz
+          caches:
+            - node

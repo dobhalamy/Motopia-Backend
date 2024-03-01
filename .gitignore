@@ -1,0 +1,9 @@
+/node_modules
+/.history
+/.idea
+/icons
+.idea/*
+*.iml
+*.DS_Store
+/.vscode
+.env

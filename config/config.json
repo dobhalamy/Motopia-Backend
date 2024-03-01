@@ -1,0 +1,32 @@
+{
+  "DMS_Prospect": "https://api.intuitivedms.com/api/Prospect/",
+  "DMS_Inventory": "https://api.intuitivedms.com/api/Inventory/",
+  "DMS_Bank": "https://api.intuitivedms.com/api/Bank/",
+  "MOTOPIA_BE": "https://api.gomotopia.com/",
+  "MOTOPIA_DEV_BE": "http://localhost:5000/",
+  "BaseRequest": {
+    "accountInfo": {
+      "attributes": {
+        "number": "326257",
+        "secret": "199960a7382a4df3",
+        "country": "US",
+        "language": "en",
+        "behalfOf": "ADS"
+      }
+    }
+  },
+  "Cloudinary": {
+    "cloud_name": "luxor-motor-cars-inc",
+    "api_key": "441691834545671",
+    "api_secret": "TuV0Pw4aS7jRQnH133DTV0usePs"
+  },
+  "dealerFolder": "dealer-logo",
+  "promoFolder": "promo",
+  "vectorFolder": "svg-images",
+  "cardFolder": "home-cards",
+  "heroFolder": "home-images",
+  "rdsCitiesFolder": "ride-share-cities",
+  "carouselFolder": "home-categories",
+  "warrantyImagesFolder": "warranty-images",
+  "carFaxLink": "https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=wdb_0&vin="
+}
